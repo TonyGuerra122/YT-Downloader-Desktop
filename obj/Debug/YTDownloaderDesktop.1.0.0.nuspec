@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>YTDownloaderDesktop</id>
+    <version>1.0.0</version>
+    <authors>YTDownloaderDesktop</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="FontAwesome.Sharp" version="6.6.0" exclude="Build,Analyzers" />
+        <dependency id="YoutubeExplode" version="6.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Programing\Projects\YTDownloaderDesktop\YTDownloaderDesktop\bin\Debug\net8.0-windows\YTDownloaderDesktop.runtimeconfig.json" target="lib\net8.0-windows7.0\YTDownloaderDesktop.runtimeconfig.json" />
+    <file src="C:\Programing\Projects\YTDownloaderDesktop\YTDownloaderDesktop\bin\Debug\net8.0-windows\YTDownloaderDesktop.dll" target="lib\net8.0-windows7.0\YTDownloaderDesktop.dll" />
+  </files>
+</package>
